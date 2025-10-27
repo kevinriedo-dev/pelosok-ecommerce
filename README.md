@@ -20,7 +20,7 @@
 
 ## 📋 Tentang Project
 
-**Pelosok** adalah platform e-commerce yang didedikasikan untuk melestarikan warisan budaya Indonesia melalui produk tradisional autentik. Platform ini memungkinkan pengrajin lokal untuk menjual produk mereka secara online, sekaligus memberikan kemudahan bagi pembeli untuk menemukan dan membeli produk tradisional berkualitas tinggi.
+**Pelosok** adalah platform e-commerce yang didedikasikan untuk para masyarakat yang memiliki kebutuhan akan berbagai jenis alat tradisional yang ada diseluruh provinsi di Indoensia, mulai dari baju adat, senjata tradisional, dan juga aksesoris tradisional.
 
 Project ini dibuat sebagai **full-stack e-commerce solution** dengan fitur lengkap untuk customer dan admin panel yang powerful.
 
@@ -182,8 +182,8 @@ Pastikan sistem Anda memiliki:
 ## 👨‍💼 Default Admin Access
 
 ```
-Email: kvnriedo@gmail.com
-Password: [Your Admin Password]
+Email: admin@pelosokecommerce.com
+Password: [Pelosok_ecom]
 ```
 
 **Admin Panel:** `http://127.0.0.1:8000/admin/dashboard`
@@ -193,23 +193,32 @@ Password: [Your Admin Password]
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](docs/screenshots/homepage.png)
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/1d1eeb39-3a91-46d1-8bc9-833434be5fcf" />
+<img width="1919" height="1014" alt="image" src="https://github.com/user-attachments/assets/30f4e5fb-8142-4525-9742-d4e13848e3eb" />
+
 *Modern homepage dengan hero section yang menarik*
 
 ### Product Catalog
-![Product Catalog](docs/screenshots/shop.png)
+<img width="1919" height="1014" alt="image" src="https://github.com/user-attachments/assets/f9df7673-e00c-4462-ac36-e4897769ae59" />
+
 *Katalog produk dengan filter kategori dan region*
 
 ### Product Detail
-![Product Detail](docs/screenshots/product-detail.png)
+<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/3ff0f583-0633-4f64-a2c5-d73d07403349" />
+
 *Halaman detail produk dengan multiple images*
 
 ### Shopping Cart
-![Shopping Cart](docs/screenshots/cart.png)
+<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/826fddd6-18ef-4e90-ab6f-543e81a66b6b" />
+
 *Shopping cart dengan session management*
 
 ### Admin Dashboard
-![Admin Dashboard](docs/screenshots/admin-dashboard.png)
+<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/68ae9881-13c0-4ff3-8a27-d69812ed9b56" />
+<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/b90032f1-3ee6-4035-8051-5c9b32bff988" />
+<img width="1914" height="1018" alt="image" src="https://github.com/user-attachments/assets/a343ae12-fc6e-4422-948c-7a88e96089d8" />
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/86389759-c063-4472-9873-b32a90eeaccb" />
+
 *Admin panel dengan statistik penjualan*
 
 ---
@@ -217,7 +226,7 @@ Password: [Your Admin Password]
 ## 🎨 Design Features
 
 ### UI/UX Highlights
-- ✅ **Responsive Design** - Mobile-first approach
+- ✅ **Responsive Design** - Website-first approach
 - ✅ **Modern Typography** - Clean & readable (Poppins font family)
 - ✅ **Sophisticated Color Palette**
   - Primary: `#D9BCA6` (Warm Beige)
@@ -280,73 +289,12 @@ GET  /admin/orders              # Order management
 
 ---
 
-## 🧪 Testing
-
-```bash
-# Run all tests
-php artisan test
-
-# Run specific test file
-php artisan test --filter ProductTest
-
-# Run with coverage
-php artisan test --coverage
-```
-
----
-
-## 🚀 Deployment
-
-### Production Checklist
-
-- [ ] Set `APP_ENV=production` in `.env`
-- [ ] Set `APP_DEBUG=false` in `.env`
-- [ ] Configure production database credentials
-- [ ] Run optimization commands:
-  ```bash
-  php artisan config:cache
-  php artisan route:cache
-  php artisan view:cache
-  php artisan optimize
-  ```
-- [ ] Set proper file permissions (755 for directories, 644 for files)
-- [ ] Configure web server (Apache/Nginx)
-- [ ] Enable HTTPS with SSL certificate
-- [ ] Setup automated backups
-- [ ] Configure error monitoring (Sentry, Bugsnag)
-
 ### Recommended Hosting Platforms
 
 - **Railway.app** - Easy Laravel deployment with MySQL
 - **DigitalOcean** - Professional VPS hosting
 - **AWS** - Enterprise-grade cloud hosting
 - **Heroku** - Simple deployment (with PostgreSQL)
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to contribute, please:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Coding Standards
-
-- Follow PSR-12 coding standards
-- Write meaningful commit messages
-- Add comments for complex logic
-- Write tests for new features
-- Update documentation as needed
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
